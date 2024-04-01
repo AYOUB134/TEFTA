@@ -1,0 +1,35 @@
+.male-icon {
+    position: absolute;
+    bottom: -8rem; /* Adjust as needed */
+    right: 0;
+    margin-right: 20px; /* Adjust as needed */
+    width: 20rem !important; /* Adjust as needed */
+    height: 20rem !important; /* Adjust as needed */
+}
+
+@media (max-width: 640px) {
+    /* Small screens */
+    .male-icon {
+        margin-top: 5rem !important;
+        width: 8rem !important; /* Adjust as needed */
+        height: 15rem !important; /* Adjust as needed */
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    /* Medium screens */
+    .male-icon {
+      
+        width: 16rem !important; /* Adjust as needed */
+        height: 16rem !important; /* Adjust as needed */
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Large screens */
+    .male-icon {
+        width: 20rem !important; /* Adjust as needed */
+        height: 20rem !important; /* Adjust as needed */
+    }
+}
